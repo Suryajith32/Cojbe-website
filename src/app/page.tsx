@@ -94,35 +94,35 @@ export default function Home() {
           </p>
 
           {/* Countdown Timer */}
-          <div className="grid grid-cols-4 gap-4 md:gap-8 mb-12 max-w-2xl mx-auto">
-            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 text-center">
-              <div className="text-3xl md:text-4xl font-bold text-white mb-2">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 md:gap-8 mb-12 max-w-2xl mx-auto">
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-3 sm:p-4 md:p-6 text-center">
+              <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-1 sm:mb-2">
                 {timeLeft.days.toString().padStart(2, "0")}
               </div>
-              <div className="text-white/70 text-sm">Days</div>
+              <div className="text-white/70 text-xs sm:text-sm">Days</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 text-center">
-              <div className="text-3xl md:text-4xl font-bold text-white mb-2">
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-3 sm:p-4 md:p-6 text-center">
+              <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-1 sm:mb-2">
                 {timeLeft.hours.toString().padStart(2, "0")}
               </div>
-              <div className="text-white/70 text-sm">Hours</div>
+              <div className="text-white/70 text-xs sm:text-sm">Hours</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 text-center">
-              <div className="text-3xl md:text-4xl font-bold text-white mb-2">
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-3 sm:p-4 md:p-6 text-center">
+              <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-1 sm:mb-2">
                 {timeLeft.minutes.toString().padStart(2, "0")}
               </div>
-              <div className="text-white/70 text-sm">Minutes</div>
+              <div className="text-white/70 text-xs sm:text-sm">Minutes</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 text-center">
-              <div className="text-3xl md:text-4xl font-bold text-white mb-2">
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-3 sm:p-4 md:p-6 text-center">
+              <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-1 sm:mb-2">
                 {timeLeft.seconds.toString().padStart(2, "0")}
               </div>
-              <div className="text-white/70 text-sm">Seconds</div>
+              <div className="text-white/70 text-xs sm:text-sm">Seconds</div>
             </div>
           </div>
 
           {/* Email Signup */}
-          <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 max-w-md mx-auto">
+          {/* <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 max-w-md mx-auto">
             <h3 className="text-xl font-semibold text-white mb-4">
               Get Notified
             </h3>
@@ -139,7 +139,7 @@ export default function Home() {
                 Notify Me
               </button>
             </div>
-          </div>
+          </div> */}
 
           {/* Social Links */}
           <div className="mt-12">
@@ -225,7 +225,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6">
             <p className="text-white/70">
-              &copy; 2024 Cojbe. All rights reserved.
+              &copy; 2025 Cojbe. All rights reserved.
             </p>
           </div>
         </div>
