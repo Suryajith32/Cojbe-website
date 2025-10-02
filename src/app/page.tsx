@@ -8,7 +8,6 @@ export default function Home() {
         <div className="absolute top-40 left-40 w-80 h-80 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
       </div>
 
-      {/* Floating Header */}
       <header className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-[95%] max-w-6xl">
         <div className="bg-white/20 backdrop-blur-xl border border-white/30 rounded-2xl shadow-2xl shadow-black/10">
           <div className="px-6 py-4">
@@ -82,7 +81,7 @@ export default function Home() {
                 </h1>
                 <p className="text-xl text-slate-600 leading-relaxed">
                   Discover flexible side jobs that fit your schedule and skills.
-                  Earn extra income on your own terms with Cojbe's diverse
+                  Earn extra income on your own terms with Cojbe&apos;s diverse
                   marketplace of opportunities.
                 </p>
               </div>
@@ -408,9 +407,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-slate-600 italic">
-                "Cojbe has been a game-changer for my freelance career. I can
-                pick up design gigs that fit perfectly with my schedule and earn
-                extra income while working from home."
+                &ldquo;Cojbe has been a game-changer for my freelance career. I
+                can pick up design gigs that fit perfectly with my schedule and
+                earn extra income while working from home.&rdquo;
               </p>
             </div>
             <div className="bg-white/20 backdrop-blur-sm border border-white/30 p-8 rounded-2xl shadow-xl">
@@ -426,9 +425,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-slate-600 italic">
-                "The platform is incredibly user-friendly and the payment system
-                is reliable. I've been able to build a steady stream of side
-                income through various tech projects."
+                &ldquo;The platform is incredibly user-friendly and the payment
+                system is reliable. I&apos;ve been able to build a steady stream
+                of side income through various tech projects.&rdquo;
               </p>
             </div>
             <div className="bg-white/20 backdrop-blur-sm border border-white/30 p-8 rounded-2xl shadow-xl">
@@ -442,9 +441,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-slate-600 italic">
-                "As a student, Cojbe has been perfect for finding flexible
+                &ldquo;As a student, Cojbe has been perfect for finding flexible
                 writing gigs. I can work around my classes and earn money to
-                support my education."
+                support my education.&rdquo;
               </p>
             </div>
           </div>
